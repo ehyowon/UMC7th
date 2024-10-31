@@ -1,5 +1,17 @@
-Spring MVC패턴 적용하여 간단한 게시판(CRUD 기능) api서버 구현해보기
+## Spring MVC패턴 적용하여 간단한 게시판(CRUD 기능) api서버 구현해보기
 
+```
+src
+└── main
+    └── java
+        └── com
+            └── example
+                └── board
+                    ├── Post.java 
+                    ├── PostRepository.java
+                    ├── PostService.java
+                    └── PostController.java
+```
 ### Post
 게시글 객체 - id, title, content
 - `id`: 게시글의 고유 번호
@@ -26,3 +38,4 @@ HTTP 요청을 받아서 PostService와 연동해 데이터 처리, 결과를 JS
 - `GET /api/posts/{id}`: 특정 게시글 조회
 - `POST /api/posts`: 새 게시글 생성, 클라이언트가 JSON 형식으로 title과 content 전송
 - `DELETE /api/posts/{id}`: 특정 게시글 삭제
+
