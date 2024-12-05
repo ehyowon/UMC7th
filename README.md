@@ -1,3 +1,5 @@
 # UMC7th
 
-chap6,7 같은 오류 뜨는데 build.gradle 파일 수정해봐야할듯
+chap9 에서 StoreConverter.java 오류 있음
+<img width="627" alt="image" src="https://github.com/user-attachments/assets/4d485aad-b60a-4a69-b49b-905f9f5668e9">
+
